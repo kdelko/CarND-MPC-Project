@@ -50,6 +50,7 @@ class FG_eval {
     //Reference State cost
     //TODO:Define the cost related to the reference state and
     // anything I consider  may be beneficial
+    //here you can tune parameters to change behavior of car
     for (int i = 0;i<N;i++){
       fg[0]+=2000*CppAD::pow(vars[cte_start +i]-ref_cte,2);
       fg[0]+=2000*CppAD::pow(vars[epsi_start +i]-ref_epsi,2);
