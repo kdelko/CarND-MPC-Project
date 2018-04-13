@@ -6,8 +6,8 @@
 using CppAD::AD;
 
 // 1 second look ahead time
-size_t N = 10;
-double dt = 0.1;
+size_t N = 20;
+double dt = 0.095;
 
 // This value assumes the model presented in the classroom is used.
 //
